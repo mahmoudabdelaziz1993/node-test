@@ -1,0 +1,17 @@
+{
+  "name": "blog-node",
+  "version": "1.0.0",
+  "description": "test blog with nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\u001b[A"
+  },
+  "author": "mahmoud_abdelaziz",
+  "license": "ISC"
+}
