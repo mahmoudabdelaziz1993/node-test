@@ -10,7 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "\u001b[A"
+    "test": "\u001b[A",
+    "start":"node routes.js"
   },
   "author": "mahmoud_abdelaziz",
   "license": "ISC"
