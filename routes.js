@@ -29,6 +29,9 @@ app.get('/contact',function (req,res) {
 app.get('/about',function (req,res) {
   res.render('about');
 });
+app.get('/post',function (req,res) {
+  res.render('post');
+});
 app.post('/contact',urlencodedParser,function (req,res) {
 	console.log(req.body);
   res.render('contactsucc',{data:req.body});
